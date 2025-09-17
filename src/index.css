@@ -1,0 +1,215 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+
+  header {
+    text-align: left;
+    background-color: #ff0000;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 32px;
+  }
+  
+  header p {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+
+  main h1 {
+    text-align: center;
+  }
+
+  main h2 { 
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 100%;
+    width: 160vh;
+  }
+  
+  /* Sidebar (nav) for large screens */
+  .sidebar {
+    width: 30%;             
+    background-color: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  nav ul {
+    display: flex;
+    flex-direction: column;  
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  nav li {
+    margin: 0;
+    padding: 20px 0;
+    border: 2.5px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: yellow;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #0077cc;
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+  }
+  
+
+  .content {
+    flex: 1;
+    width: 70%;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #00fff7;
+    box-sizing: border-box;
+  }
+  
+  main h2 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  main p {
+    font-size: 24px;
+  }
+  
+  .img {
+    text-align: center;
+  }
+
+  .edu-entry {
+    border-left: 5px solid;
+    padding-left: 10px;
+    margin: 0;
+  }
+
+  .edu-descrip {
+    margin-top: 100px;   
+    margin-bottom: 100px;
+    padding-left: 15px;
+    color: #555;  
+  }
+
+  .emp {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  main img {
+    max-width: 45%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    margin: 0 auto;
+  }
+
+  .calc {
+    max-width: 420px;
+    margin: 24px auto;
+    background-color: rgb(163, 23, 179);
+    border: 1px solid #e6e6e6;
+    padding: 16px;
+  }
+
+  .calc-input {
+    margin-top: 100px;
+    display: grid;
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+
+  .calc-buttons {
+
+  }
+
+ #output {
+  text-align: center;
+  }
+  
+
+  .footer {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    box-sizing: border-box;
+  }
+  
+  footer {
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+  }
+  
+  footer a {
+    color: #0077cc;
+    text-decoration: underline;
+  }
+  
+  
+  @media screen and (max-width: 750px) {
+    header {
+      text-align: center;
+    }
+  
+    .page {
+     flex-direction: row;
+    }
+  
+    .content {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 20px;
+    }
+  
+    .sidebar {
+      width: 100%;
+      max-width: none;
+      padding: 10px;
+    }
+  
+    nav ul {
+      display: flex;              
+      flex-direction: row;        
+      justify-content: space-around;
+      gap: 0;
+    }
+  
+    nav li {
+      flex: 1;                     
+      margin-bottom: 0;
+      border-radius: 0;
+      border: none;               
+      padding: 3px; 
+      border: 1.5px solid #ddd;
+      margin: 2px;            
+    }
+  
+    nav a {
+      padding: 15px 0;
+    }
+  }

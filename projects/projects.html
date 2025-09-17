@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nathan Moges | resume</title>
+  <link rel="stylesheet" href="../src/index.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" type = text/css>
+</head>
+<body>
+
+  <header>
+    <h1>Nathan Moges</h1>
+    <p>My Online Resume</p>
+  </header>
+
+  <div class="page">
+    <div class="sidebar">
+        <nav>
+            <ul>
+                <li><a href="../src/index.html">Home</a></li>
+                <li><a href="../education/edu.html">Education</a></li>
+                <li><a href="../employment/employment.html">Employment</a></li>
+                <li><a href="../extracurriculars/extra.html">Extracurriculars</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="../relevantcourses/rc.html">Relevant Courses</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="content">
+        <main>
+        <section>
+            <h1>Projects</h1>
+            <h2>BU-Busy</h2>
+            <p>In this project I developed a traffic tracker for the BU Gym by tracking the number of swipes in the gym and posting a value from 1-5 to determine how busy the gym is.</p>
+            <p>https://github.com/mchu64/BU-BUSY</p>
+            <h2>MelaninRx</h2>
+            <p>In this project we developed a website with chatbot that lets us describe our symptoms when we are feeling sick and using a google api connects us with local black doctors.</p>
+            <p>https://github.com/RaniyaDelil/MelaninRx-CS411</p>
+            <div class="calc">         
+              <div class="calc-input">
+                <h1>Nathan's Calculator</h1>
+                <h3 id="output"></h3>
+                <p3>First Field</p3>
+                <input type="text" id="one" placeholder="First Number">
+                <p3>Second Field</p3>
+                <input type="text" id="two" placeholder="Second Number">
+              </div>
+              <br><br>
+              <div class="calc-buttons">
+                <button onclick="doAdd()"> + </button>
+                <button onclick="doSubtract()"> - </button>
+                <button onclick="doMultiply()"> * </button>
+                <button onclick="doDivide()"> / </button>
+                <button onclick="doPower()"> ** </button>
+                <button onclick="doClear()"> Clear </button>
+              </div>
+            </div>
+
+        </section>
+        </main>
+    </div>
+  </div>
+  <div class="footer">
+        <footer>
+            <p>&copy; all rights reserved by Nathan Moges | <a href="credits.html">credits</a></p>
+        </footer>
+    </div>
+    <script src="projects.js"></script>
+</body>
+</html>
